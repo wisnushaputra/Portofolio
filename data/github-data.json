@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-16T20:46:43.249Z",
+  "fetchedAt": "2026-07-16T21:21:40.612Z",
   "user": {
     "login": "wisnushaputra",
     "name": "wisnu shaputra",
     "avatar_url": "https://avatars.githubusercontent.com/u/67814969?v=4",
     "bio": "Hai",
-    "public_repos": 31,
+    "public_repos": 29,
     "followers": 4,
     "following": 4,
     "html_url": "https://github.com/wisnushaputra",
@@ -14,15 +14,28 @@
   },
   "repos": [
     {
+      "id": 678508898,
+      "name": "wisnushaputra",
+      "full_name": "wisnushaputra/wisnushaputra",
+      "html_url": "https://github.com/wisnushaputra/wisnushaputra",
+      "description": "my profile repository",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-07-16T21:17:07Z",
+      "fork": false,
+      "topics": []
+    },
+    {
       "id": 1295178223,
       "name": "foodreview-id",
       "full_name": "wisnushaputra/foodreview-id",
       "html_url": "https://github.com/wisnushaputra/foodreview-id",
-      "description": null,
+      "description": "FoodReview ID adalah platform komunitas web untuk berbagi ulasan dan pengalaman kuliner. Project ini dibuat untuk memenuhi tugas UAS Pemrograman Web 2.",
       "language": "TypeScript",
       "stargazers_count": 0,
       "forks_count": 0,
-      "updated_at": "2026-07-16T20:30:38Z",
+      "updated_at": "2026-07-16T20:57:10Z",
       "fork": false,
       "topics": []
     },
@@ -40,19 +53,6 @@
       "topics": []
     },
     {
-      "id": 1290179617,
-      "name": "bcms",
-      "full_name": "wisnushaputra/bcms",
-      "html_url": "https://github.com/wisnushaputra/bcms",
-      "description": null,
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-07-05T17:07:34Z",
-      "fork": false,
-      "topics": []
-    },
-    {
       "id": 1286082441,
       "name": "GACS",
       "full_name": "wisnushaputra/GACS",
@@ -62,19 +62,6 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2026-07-01T13:49:00Z",
-      "fork": false,
-      "topics": []
-    },
-    {
-      "id": 1276714540,
-      "name": "personal-blog",
-      "full_name": "wisnushaputra/personal-blog",
-      "html_url": "https://github.com/wisnushaputra/personal-blog",
-      "description": "personal blogspot",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-06-23T00:10:35Z",
       "fork": false,
       "topics": []
     },
@@ -348,19 +335,6 @@
       "stargazers_count": 1,
       "forks_count": 0,
       "updated_at": "2023-10-23T12:20:07Z",
-      "fork": false,
-      "topics": []
-    },
-    {
-      "id": 678508898,
-      "name": "wisnushaputra",
-      "full_name": "wisnushaputra/wisnushaputra",
-      "html_url": "https://github.com/wisnushaputra/wisnushaputra",
-      "description": "my profile repository",
-      "language": null,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2023-08-14T18:03:46Z",
       "fork": false,
       "topics": []
     },
