@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisnu Saputra | Portfolio & GitHub Showcase</title>
+  <meta name="description"
+    content="Personal portfolio and GitHub project showcase of Wisnu Saputra, featuring projects in C++, TypeScript, PHP, and more.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Preconnect and Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Lucide Icons for premium modern look -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="dark-theme">
+  <!-- Dynamic background blob effects -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Header Section -->
+  <header id="main-header" class="header">
+    <div class="header-container container">
+      <a href="#hero" class="logo">
+        <span class="logo-accent"></span>wisnu<span class="logo-accent"></span>
+      </a>
+
+      <nav id="nav-menu" class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container container">
+        <div class="hero-content">
+          <div class="badge-container">
+            <span class="status-badge"><span class="pulse-dot"></span> Available for projects</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text" id="user-name">Wisnu Saputra</span>
+          </h1>
+          <p class="hero-subtitle" id="user-bio">
+            Passionate Software Engineer specializing in building elegant, modern, and performant digital solutions.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- GitHub Statistics Summary Cards (loaded dynamically) -->
+          <div class="hero-stats" id="github-stats-container">
+            <div class="stat-card card-loading">
+              <div class="stat-value">--</div>
+              <div class="stat-label">Repositories</div>
+            </div>
+            <div class="stat-card card-loading">
+              <div class="stat-value">--</div>
+              <div class="stat-label">Followers</div>
+            </div>
+            <div class="stat-card card-loading">
+              <div class="stat-value">--</div>
+              <div class="stat-label">Following</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-card">
+              <div class="profile-card-inner">
+                <div class="avatar-container">
+                  <img id="user-avatar" src="https://avatars.githubusercontent.com/u/67814969?v=4"
+                    alt="Wisnu Saputra Avatar" class="profile-avatar">
+                </div>
+                <div class="profile-meta">
+                  <h3 id="user-login">@wisnushaputra</h3>
+                  <p id="user-location"><i data-lucide="map-pin"></i> Indonesia</p>
+                </div>
+                <div class="profile-links">
+                  <a id="user-github-link" href="https://github.com/wisnushaputra" target="_blank"
+                    rel="noopener noreferrer" class="social-icon-btn">
+                    <i data-lucide="github"></i>
+                  </a>
+                  <a id="user-blog-link" href="#" target="_blank" rel="noopener noreferrer"
+                    class="social-icon-btn hidden">
+                    <i data-lucide="globe"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Tech Stack Section -->
+    <section id="about" class="about-section section">
+      <div class="about-container container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content-grid">
+          <div class="about-text-card card">
+            <h3>Who I Am</h3>
+            <p>
+              I am a developer driven by creating efficient code and satisfying user experiences.
+              My development philosophy is focused on clean architecture, continuous learning, and
+              leveraging modern technologies to solve real-world problems.
+            </p>
+            <p>
+              Through my GitHub activities, I maintain a variety of projects exploring systems programming,
+              geographical information systems (GIS), application logic in C++, TypeScript, PHP, and modern web tech.
+            </p>
+          </div>
+
+          <div class="skills-card card">
+            <h3>Top Programming Languages</h3>
+            <p class="skills-intro">Deduced automatically from my public GitHub repositories activity:</p>
+            <div id="languages-chart" class="languages-chart-container">
+              <!-- Dynamically filled with language bars -->
+              <div class="loading-spinner">Loading language stats...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+      <div class="projects-container container">
+        <h2 class="section-title">GitHub Repositories</h2>
+        <p class="section-subtitle">A curated view of my open-source projects fetched directly from GitHub.</p>
+
+        <!-- Search and Filter Controls -->
+        <div class="filters-wrapper card">
+          <div class="search-box">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search repositories by name or description...">
+            <button id="search-clear-btn" class="clear-btn" aria-label="Clear Search">
+              <i data-lucide="x"></i>
+            </button>
+          </div>
+          <div class="filter-tags-container" id="filter-tags">
+            <!-- Dynamically populated tags (e.g. All, TypeScript, C++, PHP, etc.) -->
+            <button class="filter-tag active" data-filter="all">All</button>
+          </div>
+        </div>
+
+        <!-- Repositories Grid -->
+        <div class="repos-grid" id="repos-grid">
+          <!-- Dynamically populated project cards -->
+          <div class="repo-card-skeleton"></div>
+          <div class="repo-card-skeleton"></div>
+          <div class="repo-card-skeleton"></div>
+          <div class="repo-card-skeleton"></div>
+          <div class="repo-card-skeleton"></div>
+          <div class="repo-card-skeleton"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+      <div class="contact-container container">
+        <div class="contact-card card">
+          <div class="contact-info">
+            <h2 class="contact-title">Let's Collaborate</h2>
+            <p class="contact-desc">
+              Have a project in mind, want to discuss development patterns, or just want to say hi?
+              Drop me a message below or connect with me via my social profiles.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="mail"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Email</span>
+                  <a href="mailto:wisnushaputra@gmail.com" class="method-value">wisnushaputra@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="github"></i></div>
+                <div class="method-details">
+                  <span class="method-label">GitHub</span>
+                  <a href="https://github.com/wisnushaputra" target="_blank" rel="noopener noreferrer"
+                    class="method-value">github.com/wisnushaputra</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" name="name" required placeholder="John Doe">
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email Address</label>
+                <input type="email" id="form-email" name="email" required placeholder="john@example.com">
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="4" required
+                  placeholder="Hi Wisnu, I'd like to talk about..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container container">
+      <p>&copy; 2026 Wisnu Saputra. All rights reserved.</p>
+      <p class="footer-meta">
+        Powered by dynamic GitHub data & Vanilla CSS.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
