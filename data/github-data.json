@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-16T21:21:40.612Z",
+  "fetchedAt": "2026-07-17T01:53:41.854Z",
   "user": {
     "login": "wisnushaputra",
     "name": "wisnu shaputra",
     "avatar_url": "https://avatars.githubusercontent.com/u/67814969?v=4",
     "bio": "Hai",
-    "public_repos": 29,
+    "public_repos": 30,
     "followers": 4,
     "following": 4,
     "html_url": "https://github.com/wisnushaputra",
@@ -13,6 +13,19 @@
     "blog": "wisnushaputra636@gmail.com"
   },
   "repos": [
+    {
+      "id": 1303258346,
+      "name": "Portofolio",
+      "full_name": "wisnushaputra/Portofolio",
+      "html_url": "https://github.com/wisnushaputra/Portofolio",
+      "description": "personal portofolio",
+      "language": "CSS",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-07-16T21:32:48Z",
+      "fork": false,
+      "topics": []
+    },
     {
       "id": 678508898,
       "name": "wisnushaputra",
