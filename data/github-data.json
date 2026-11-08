@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-07T03:51:24.569Z",
+  "fetchedAt": "2026-11-08T03:34:05.210Z",
   "user": {
     "login": "wisnushaputra",
     "name": "wisnu shaputra",
     "avatar_url": "https://avatars.githubusercontent.com/u/67814969?v=4",
     "bio": "Hai",
-    "public_repos": 33,
+    "public_repos": 34,
     "followers": 4,
     "following": 4,
     "html_url": "https://github.com/wisnushaputra",
@@ -13,6 +13,19 @@
     "blog": "wisnushaputra636@gmail.com"
   },
   "repos": [
+    {
+      "id": 1449581812,
+      "name": "IPAM-WatchARP",
+      "full_name": "wisnushaputra/IPAM-WatchARP",
+      "html_url": "https://github.com/wisnushaputra/IPAM-WatchARP",
+      "description": null,
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-11-07T22:49:00Z",
+      "fork": false,
+      "topics": []
+    },
     {
       "id": 1303258346,
       "name": "Portofolio",
@@ -22,7 +35,7 @@
       "language": "CSS",
       "stargazers_count": 0,
       "forks_count": 0,
-      "updated_at": "2026-11-06T04:22:53Z",
+      "updated_at": "2026-11-07T03:51:29Z",
       "fork": false,
       "topics": []
     },
